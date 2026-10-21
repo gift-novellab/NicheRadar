@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data and generated outputs are intentionally excluded from the
+# anonymous code package.
+data/*.h5ad
+data/*.h5
+data/*.zarr
+output/
+*.log
